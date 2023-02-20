@@ -1,0 +1,26 @@
+version: '1'
+services:
+  cs1.6-server:
+    image: cs1.6-server
+    container_name: cs1.6-server
+    environment:
+    - ENV PORT 27015
+    - ENV MAP big_city2
+    - ENV MAXPLAYERS 32
+    - ENV SV_LAN 0
+    - ENV IP 0.0.0.0
+    ports:
+      #- 27015:27015/tcp
+      - 27015:27015/udp
+      #- 27017:27017/tcp
+      #- 27017:27017/udp
+    volumes:
+      - /home/agalar/games/cs-1.6/data/game.cfg:/hlds/cstrike/game.cfg
+      - /home/agalar/games/cs-1.6/data/reunion.cfg:/hlds/cstrike/reunion.cfg
+      - /home/agalar/games/cs-1.6/data/server.cfg:/hlds/cstrike/server.cfg
+      - /home/agalar/games/cs-1.6/data/settings.scr:/hlds/cstrike/settings.scr
+      - /home/agalar/games/cs-1.6/data/sys_error.log:/hlds/cstrike/sys_error.log
+      - /home/agalar/games/cs-1.6/data/titles.txt:/hlds/cstrike/titles.txt
+      #- /home/agalar/games/cs-1.6/data/addons/amxmodx/configs:/hlds/cstrike/addons/amxmodx/configs
+
+    restart: 'unless-stopped'

@@ -1,0 +1,37 @@
+// Detail texture map file for big_city2 level
+// [texture name]	[detail texture name]		[hscale]	[vscale]
+
+Brick05_sm		detail/dt_brick			10.0		10.0
+conc_wall_03		detail/dt_conc			10.0		10.0
+dumpsterfront		detail/dt_metal1		10.0		10.0
+dumpsterside		detail/dt_metal1		10.0		10.0
+nmbc_b1			detail/dt_smooth1		10.0		10.0
+nmbc_b2			detail/dt_smooth1		10.0		10.0
+nmbc_b3			detail/dt_smooth1		10.0		10.0
+nmbc_b4			detail/dt_smooth1		10.0		10.0
+nmbc_b5			detail/dt_smooth1		10.0		10.0
+nmbc_b6			detail/dt_smooth1		10.0		10.0
+nmbc_b7			detail/dt_smooth1		10.0		10.0
+nmbc_b8			detail/dt_smooth1		10.0		10.0
+nmbc_b9			detail/dt_stone1		10.0		10.0
+nmbc_b10		detail/dt_brick			10.0		10.0
+nmbc_bigcityii		detail/dt_plaster2		10.0		10.0
+nmbc_blahhhh_ad		detail/dt_plaster2		10.0		10.0
+nmbc_brick1		detail/dt_brick			10.0		10.0
+nmbc_bricktrim		detail/dt_brick			10.0		10.0
+nmbc_Crate02		detail/dt_wood1	 		5.0		5.0
+nmbc_front1		detail/dt_smooth1		10.0		10.0
+nmbc_grass1		detail/dt_grass1		10.0		10.0
+nmbc_road1		detail/dt_stone1		10.0		10.0
+nmbc_sidewalk1		detail/dt_stone1		10.0		10.0
+nmbc_tile1		detail/dt_stone1		10.0		10.0
+nmbc_vanblue		detail/dt_metal1		10.0		10.0
+trrm_wood2		detail/dt_wood2	 		5.0		5.0
+c3a2b_reac		detail/dt_metal2		10.0		10.0
+drkmtlt_bord11		detail/dt_metal2		10.0		10.0
+trk_seat		detail/dt_fabric2		10.0		10.0
+trk_bed			detail/dt_rough1		10.0		10.0
+c3a2a_tnk3b		detail/dt_metal1		10.0		10.0
+c3a2a_tnk1b		detail/dt_metal1		10.0		10.0
+silo2_c1c		detail/dt_metal1		10.0		10.0
+fifties_cch1		detail/dt_fabric1		10.0		10.0

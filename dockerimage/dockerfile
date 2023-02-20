@@ -1,0 +1,43 @@
+# Debian for Better compatilbility
+FROM debian:latest
+
+# Default env variables
+ENV PORT 27015
+ENV MAP big_city2
+ENV MAXPLAYERS 32
+ENV SV_LAN 0
+ENV IP 0.0.0.0
+
+# Ports
+#EXPOSE 27015
+EXPOSE 27015/udp
+#EXPOSE 27017
+#EXPOSE 27017/udp
+
+# Required packages for both steamcmd and cs1.6 server
+RUN dpkg --add-architecture i386
+RUN apt -qqq update
+RUN apt -qqq -y install curl ca-certificates curl rsync libc6:i386 libstdc++6:i386 lib32gcc-s1 lib32stdc++6 libc6-i386 libcurl4-gnutls-dev:i386 libsdl2-2.0-0:i386
+
+# Install steamcmd
+#WORKDIR /root
+#RUN mkdir Steam .steam
+#WORKDIR /root/Steam
+#RUN curl -sqL "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz" | tar zxvf -
+
+# Install CS 1.6 via steamcmd (Broken. Thanks valve!)
+#RUN ./steamcmd.sh +login anonymous +force_install_dir /csds +app_update 90 validate +quit || true
+#RUN ./steamcmd.sh +login anonymous +app_update 70 validate +quit || true
+#RUN ./steamcmd.sh +login anonymous +app_update 10 validate +quit || true
+#RUN ./steamcmd.sh +login anonymous +force_install_dir /csds +app_update 90 validate +quit
+
+# Fix error that steamclient.so is missing.
+#RUN mkdir -p $HOME/.steam
+#RUN ln -s /opt/steam/linux32 $HOME/.steam/sdk32
+
+#Copy server files
+COPY hlds /hlds
+
+# Start server
+WORKDIR /hlds
+CMD ./hlds_run -game cstrike -strictportbind -ip $IP -port $PORT +sv_lan $SV_LAN +map $MAP -maxplayers $MAXPLAYERS

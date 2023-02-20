@@ -1,0 +1,15 @@
+
+
+global
+{
+	ZOOM	0.83
+	ORIGIN	-312	-68	960
+	ROTATED	0
+}
+
+layer
+{
+	IMAGE "overviews/big_city2.tga"
+	HEIGHT	-385
+}
+

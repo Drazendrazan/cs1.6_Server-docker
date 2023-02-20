@@ -1,0 +1,30 @@
+----------------------------------------------
+CRASH: Sun Feb 27 21:50:56 CET 2022
+Start Line: ./hlds_linux -game cstrike +port 27017 +maxplayers 32 +map de_dust
+----------------------------------------------
+CRASH: Sun Feb 27 22:24:50 CET 2022
+Start Line: ./hlds_linux -game cstrike +port 27017 +maxplayers 32 +map de_dust
+----------------------------------------------
+CRASH: Sun Feb 27 22:25:04 CET 2022
+Start Line: ./hlds_linux -game cstrike +port 27017 +maxplayers 32 +map de_dust
+----------------------------------------------
+CRASH: Prş 03 Kas 2022 16:09:01 +03
+Start Line: ./hlds_linux -game cstrike -console -usercon -maxplayers 32 +map de_dust2 -port 27017 sys_ticrate 1000 -pingboost 3 -heapsize 524288 -timeout 10
+----------------------------------------------
+CRASH: Prş 03 Kas 2022 16:09:26 +03
+Start Line: ./hlds_linux -game cstrike -console -usercon -maxplayers 32 +map de_dust2 -port 27017 sys_ticrate 1000 -pingboost 3 -heapsize 524288 -timeout 10
+----------------------------------------------
+CRASH: Prş 03 Kas 2022 16:11:32 +03
+Start Line: ./hlds_linux -game cstrike -console -usercon -maxplayers 32 +map de_dust2 -port 27017 sys_ticrate 1000 -pingboost 3 -heapsize 524288 -timeout 10
+----------------------------------------------
+CRASH: Prş 03 Kas 2022 19:11:54 +03
+Start Line: ./hlds_linux -game cstrike -console -usercon -maxplayers 32 +map de_dust2 -port 27017 sys_ticrate 1000 -pingboost 3 -heapsize 524288 -timeout 10
+----------------------------------------------
+CRASH: Prş 03 Kas 2022 19:12:05 +03
+Start Line: ./hlds_linux -game cstrike -console -usercon -maxplayers 32 +map de_dust2 -port 27017 sys_ticrate 1000 -pingboost 3 -heapsize 524288 -timeout 10
+----------------------------------------------
+CRASH: Cum 04 Kas 2022 13:17:00 +03
+Start Line: ./hlds_linux -game cstrike -console -usercon -maxplayers 32 +map de_dust2 -port 27017 sys_ticrate 1000 -pingboost 3 -heapsize 524288 -timeout 10
+----------------------------------------------
+CRASH: Cts 17 Ara 2022 18:58:47 +03
+Start Line: ./hlds_linux -game cstrike -console -usercon -maxplayers 32 +map big_city2 -port 27017 sys_ticrate 1000 -pingboost 3 -heapsize 524288 -timeout 10

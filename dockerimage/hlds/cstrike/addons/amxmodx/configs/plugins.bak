@@ -1,0 +1,66 @@
+; AMX Mod X plugins
+
+; Admin Base - Always one has to be activated
+admin.amxx		; admin base (required for any admin-related)
+;admin_sql.amxx		; admin base - SQL version (comment admin.amxx)
+
+; Basic
+admincmd.amxx		; basic admin console commands
+adminhelp.amxx		; help command for admin console commands
+adminslots.amxx		; slot reservation
+multilingual.amxx	; Multi-Lingual management
+
+; Menus
+menufront.amxx		; front-end for admin menus
+cmdmenu.amxx		; command menu (speech, settings)
+plmenu.amxx		; players menu (kick, ban, client cmds.)
+;telemenu.amxx		; teleport menu (Fun Module required!)
+mapsmenu.amxx		; maps menu (vote, changelevel)
+pluginmenu.amxx		; Menus for commands/cvars organized by plugin
+
+; Chat / Messages
+adminchat.amxx		; console chat commands
+antiflood.amxx		; prevent clients from chat-flooding the server
+scrollmsg.amxx		; displays a scrolling message
+imessage.amxx		; displays information messages
+adminvote.amxx		; vote commands
+
+; Map related
+nextmap.amxx		; displays next map in mapcycle
+mapchooser.amxx		; allows to vote for next map
+timeleft.amxx		; displays time left on map
+
+; Configuration
+pausecfg.amxx		; allows to pause and unpause some plugins
+statscfg.amxx		; allows to manage stats plugins via menu and commands
+
+
+; Custom - Add 3rd party plugins here
+amx_ejaculate.amx
+amx_super-cmdmanager.amxx
+amx_super-fun.amxx
+amx_super-menu.amxx
+amx_super-others.amxx
+amx_super-serious.amxx
+bunnyhop.amxx
+csdm_equip.amxx
+csdm_ffa.amxx
+csdm_itemmode.amxx
+csdm_main.amxx
+csdm_misc.amxx
+csdm_protection.amxx
+csdm_spawn_preset.amxx
+csdm_stop_respawn.amxx
+csdm_stripper.amxx
+csdm_tickets.amxx
+csstats.amxx
+GHW_GHR.amxx
+hgrp.amx
+miscstats.amxx
+multilingual.amxx
+nextmap.amxx
+parachute4ever.amxx
+pausecfg.amxx
+plugin_fun.amxx
+restmenu.amxx
+telemenu.amxx
