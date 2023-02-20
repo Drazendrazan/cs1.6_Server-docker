@@ -22,12 +22,12 @@ services:
     ports:
       - 27015:27015/udp
     volumes:
-      - /home/agalar/games/cs-1.6/data/game.cfg:/hlds/cstrike/game.cfg
-      - /home/agalar/games/cs-1.6/data/reunion.cfg:/hlds/cstrike/reunion.cfg
-      - /home/agalar/games/cs-1.6/data/server.cfg:/hlds/cstrike/server.cfg
-      - /home/agalar/games/cs-1.6/data/settings.scr:/hlds/cstrike/settings.scr
-      - /home/agalar/games/cs-1.6/data/sys_error.log:/hlds/cstrike/sys_error.log
-      - /home/agalar/games/cs-1.6/data/titles.txt:/hlds/cstrike/titles.txt
+      - /home/$HOME/games/cs-1.6/data/game.cfg:/hlds/cstrike/game.cfg
+      - /home/$HOME/games/cs-1.6/data/reunion.cfg:/hlds/cstrike/reunion.cfg
+      - /home/$HOME/games/cs-1.6/data/server.cfg:/hlds/cstrike/server.cfg
+      - /home/$HOME/games/cs-1.6/data/settings.scr:/hlds/cstrike/settings.scr
+      - /home/$HOME/games/cs-1.6/data/sys_error.log:/hlds/cstrike/sys_error.log
+      - /home/$HOME/games/cs-1.6/data/titles.txt:/hlds/cstrike/titles.txt
 
     restart: 'unless-stopped'
 ```
